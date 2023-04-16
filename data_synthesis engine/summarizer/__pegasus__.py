@@ -1,7 +1,7 @@
 from transformers import PegasusForConditionalGeneration, PegasusTokenizer
 
 
-def summarize_text(input_text):
+def summarizer(input_text):
     """
     Summarizes input text using Pegasus model
 
